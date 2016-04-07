@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225371FF1CB5EAEC003EA493 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 225371FE1CB5EAEC003EA493 /* Cat.m */; };
 		22B9E5F61CB5E2690065E04E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B9E5F51CB5E2690065E04E /* main.m */; };
 		22B9E5F91CB5E2690065E04E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B9E5F81CB5E2690065E04E /* AppDelegate.m */; };
 		22B9E5FC1CB5E2690065E04E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B9E5FB1CB5E2690065E04E /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225371FD1CB5EAEC003EA493 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		225371FE1CB5EAEC003EA493 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		22B9E5F11CB5E2690065E04E /* Fortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B9E5F51CB5E2690065E04E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22B9E5F71CB5E2690065E04E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				22B9E5F81CB5E2690065E04E /* AppDelegate.m */,
 				22B9E5FA1CB5E2690065E04E /* ViewController.h */,
 				22B9E5FB1CB5E2690065E04E /* ViewController.m */,
+				225371FD1CB5EAEC003EA493 /* Cat.h */,
+				225371FE1CB5EAEC003EA493 /* Cat.m */,
 				22B9E5FD1CB5E2690065E04E /* Main.storyboard */,
 				22B9E6001CB5E2690065E04E /* Assets.xcassets */,
 				22B9E6021CB5E2690065E04E /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225371FF1CB5EAEC003EA493 /* Cat.m in Sources */,
 				22B9E5FC1CB5E2690065E04E /* ViewController.m in Sources */,
 				22B9E5F91CB5E2690065E04E /* AppDelegate.m in Sources */,
 				22B9E5F61CB5E2690065E04E /* main.m in Sources */,
@@ -498,6 +504,7 @@
 				22B9E6201CB5E2690065E04E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B9E6211CB5E2690065E04E /* Build configuration list for PBXNativeTarget "FortuneTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				22B9E6231CB5E2690065E04E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B9E6241CB5E2690065E04E /* Build configuration list for PBXNativeTarget "FortuneUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				22B9E6261CB5E2690065E04E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

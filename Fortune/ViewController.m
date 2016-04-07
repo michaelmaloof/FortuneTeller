@@ -7,21 +7,26 @@
 //
 
 #import "ViewController.h"
+#import "Cat.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *fortuneLabel;
+@property Cat *fortuneTeller;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.fortuneTeller = [[Cat alloc]init];
+    self.fortuneLabel.adjustsFontSizeToFitWidth = YES;
+    
+    self.fortuneLabel.text = @"Ask a question and click the cat to hear your fortune.";
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)catWasTapped:(id)sender {
+    self.fortuneLabel.text = [self.fortuneTeller askForFortune];
 }
 
 @end
