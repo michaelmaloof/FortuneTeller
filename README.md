@@ -1,10 +1,8 @@
 # FortuneTeller
+
+I'm writing a book to teach others how to code in objective-c. This is the fourth app the reader will make in the book. Any repos with "Jetpack Dinosuar" in the description are part of the book I am writing.
+
 Jetpack Dinosaur Challenge 4 - Custom Classes and MVC Part 2 (Review)
-
-I'm writing a book to teach others how to code in objective-c. This is the fourth app the reader will make in the book.
-
-Jetpack Dinosaur Challenge 4 - Custom Classes and MVC
-
 App Description:
 
 Build a working eight-ball to predict the user's future.
